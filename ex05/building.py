@@ -44,7 +44,7 @@ def main():
 
         if len(sys.argv) == 1:
             print("What is the text to count?")
-            text = sys.stdin.read()
+            text = sys.stdin.readline()
         else:
             text = sys.argv[1]
 
